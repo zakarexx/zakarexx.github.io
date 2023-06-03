@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Zakare X</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preload" href="./images/bg01.jpg" as="image" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        VANTA.BIRDS({
+          el: "#vanta",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: true,
+          minHeight: 200.0,
+          minWidth: 200.0,
+          scale: 1.0,
+          scaleMobile: 1.0,
+          backgroundAlpha: 0.0,
+          color2: 0x20309b,
+          wingSpan: 40.0,
+          separation: 100.0,
+          alignment: 77.0,
+          cohesion: 5.0,
+          quantity: 1.0,
+        });
+
+        setTimeout(() => {
+          const main = document.querySelector("main");
+          main.style.opacity = 1;
+          main.style.filter = "blur(0px)";
+        }, 1000);
+      });
+    </script>
+  </head>
+  <body>
+    <div id="vanta"></div>
+    <main class="animated">
+      <header>
+        <img src="./images/IMG_1702.jpeg" />
+        <h1>@Zakare_X</h1>
+      </header>
+      <ul>
+        <div class="li1">
+        <li class="li2">
+          <h3>I'm a gamer, and I make gameplay videos about driving games. I post my videos on TikTok, Instagram and Youtube. Check out these links!</h3>
+        </div>
+           
+        </li>
+        <li>
+          <a
+            href="https://www.logitechg.com/en-us/products/driving/g923-trueforce-sim-racing-wheel.html"
+          >
+            <img class="image2" src="./images/6666.png" alt="Logitech G923"  />
+            <p>Logitech G923</p>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/@zakarex"
+          >
+            <img class="image3" src="./images/4423702ffff.png" alt="YouTube"  />
+            <p>YouTube</p>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/zakare_x/?igshid=MzRlODBiNWFlZA%3D%3D">
+            <img  class="image4" src="./images/ddddd.png" alt="Instagram"  />
+            <p>Instagram</p>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/@zakare_x">
+            <img class="image5" src="./images/vvvvvvv.png" alt=" TikTok"  />
+            <p>TikTok</p>
+          </a>
+        </li>
+        <li>
+          <a href="https://t.me/ZakareX">
+            <img class="image6" src="./images/Telegram-Background-PNG.png" alt="Telegram"  />
+            <p>Telegram</p>
+          </a>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
